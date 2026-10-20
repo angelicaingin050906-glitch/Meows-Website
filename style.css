@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+    border-bottom: 4px solid black; 
+    background-color: #79e2db;
+}
+
+.header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.header p {
+    font-size: 20px;
+    font-style:normal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+        /*HOME SECTION */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text h2 { 
+    font-size: 50px;
+    line-height: 1.3;
+    border: none;
+    text-align: center;
+    color: blue;
+}
+
+.card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black; 
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.circle-placeholder {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 100%;
+    border-color:rgb(150, 201, 216) ;
+    margin: 0 auto 15px;
+}
+
+.circle-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+/*About me */
+.image2 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.image2 p {
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.aboutme {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.aboutme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*skills*/
+.skills {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.skills3 {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.image1 {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.skillImage {
+    width: 100%;
+    height: 100%;
+}
+
+.skillImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.skill1 {
+    list-style: none;
+    flex-grow: 1;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.skills-layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.skill1 li {
+    margin: -5px 0;
+    position: relative;
+    font-size: 23px;
+    padding: 0px 0;
+    line-height: 1.4;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.skill1 li::before {
+    content: '●';
+    position: relative;
+    left: -10px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+/* my projects */
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.projects {
+    display: flex;
+    justify-content: center;    
+    flex-wrap:wrap;               
+    gap: 25px;                  
+    padding: 25px 20px; 
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.project-card {           
+    align-items: center;    
+    text-align: center;
+    border: 2px solid #cb1313;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #a6b1ad;
+    padding: 20px 15px;             
+    max-width: 300px;
+}
+.project-card img {
+    border-radius: 50%;
+    border: 2px solid #661111;
+    margin: 10px 12;
+    height: 125px;                  
+    width: 125px; 
+    object-fit: cover;
+}
+
+    
+/*Contact*/
+form {
+    border: 2px solid black;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 6px 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color:#5fc7de;
+    font-size: 14px;    
+}
+.line {
+    border: none;
+    border-top: 4px solid black;
+    margin: 1px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 14px;
+    background-color: #79e2db;
+}
